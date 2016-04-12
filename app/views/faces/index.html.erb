@@ -1,0 +1,5 @@
+<h1>All faces</h1>
+
+<% @faces.each do |face| %>
+  <%= link_to face.shape, face_path(face.id) %>
+<% end %>

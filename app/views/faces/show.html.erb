@@ -1,0 +1,6 @@
+<h1>face show page</h1>
+
+<p>Shape: <%= @face.shape %><p>
+
+<%= link_to "Edit", edit_face_path(@face.id) %><br>
+<%= link_to "Delete Face", face_path(@face.id), method: "delete" %>
